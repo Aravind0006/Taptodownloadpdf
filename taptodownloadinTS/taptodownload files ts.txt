@@ -1,0 +1,7 @@
+downloadPdf() {
+    const pdfPath = 'assets/path/to/your/pdf.pdf'; // Replace with the actual path to your PDF file
+    const link = document.createElement('a');
+    link.href = pdfPath;
+    link.download = 'downloaded-pdf.pdf';
+    link.click();
+  }
